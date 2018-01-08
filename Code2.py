@@ -21,7 +21,7 @@ class MyFirstClass():
     def __init__(self):
         self.list1 = [1,2,3,4,5,6,7,8,9,10]
         self.list2 = []
-        self.a = 5
+        self.a = 1
         self.b = random.randint(1,10)
 
     def funct1(self):
@@ -44,8 +44,12 @@ class MyFirstClass():
         random.shuffle(self.list2)
         if(self.list2[5] == 6):
             print("Correct")
+            print(self.list2[5])
+
         else:
             print("Fail")
+            print(self.list2[5])
+
 
 
 
